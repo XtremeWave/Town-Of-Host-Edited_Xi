@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheOtherRoles_Host", "TheOtherRoles_Host.csproj", "{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Canary|Any CPU = Canary|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Canary|Any CPU.ActiveCfg = Canary|Any CPU
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Canary|Any CPU.Build.0 = Canary|Any CPU
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B1AC02-73C3-4683-AA47-5F8A81A6FF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E63B17E-6BA4-4C9A-A7E4-C4FB2DDE1504}
+	EndGlobalSection
+EndGlobal

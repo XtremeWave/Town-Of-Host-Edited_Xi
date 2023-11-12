@@ -1,0 +1,2 @@
+welcome:★ Welcome! This lobby has mod Town Of Host Edited-Xi v{{ModVersion}}\n● /help → Show all commands\n△We apologize for not completing the English translation,We need say Sorry
+OnMeeting:● Discord: discord.gg/WKYdzxKhNm\n————————————————————\n★ Send：/r → Shows rolelist\n★ Send：/r [role] → Show role description \n★ Send：/m → Check your role\n△We apologize for not completing the English translation,We need say Sorry
