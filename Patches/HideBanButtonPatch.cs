@@ -1,6 +1,6 @@
 /*using HarmonyLib;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(ChatController), nameof(ChatController.Toggle))]
 class CancelBanMenuStuckPatch

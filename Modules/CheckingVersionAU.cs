@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 // https://github.com/tukasa0001/TownOfHost/blob/main/Modules/VersionChecker.cs
 public static class VersionChecker

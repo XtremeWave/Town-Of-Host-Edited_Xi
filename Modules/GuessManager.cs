@@ -7,17 +7,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using TMPro;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Modules.ChatManager;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Modules.ChatManager;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.ChatCommands;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.ChatCommands;
+using static TOHEXI.Translator;
 using static UnityEngine.ParticleSystem.PlaybackState;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class GuessManager
 {

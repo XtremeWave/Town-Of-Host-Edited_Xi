@@ -2,14 +2,14 @@ using HarmonyLib;
 using Il2CppSystem.Text;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.GameMode;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.GameMode;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update))]
 class HudManagerPatch

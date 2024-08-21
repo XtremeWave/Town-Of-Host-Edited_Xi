@@ -2,10 +2,10 @@ using HarmonyLib;
 using System.Text;
 using TMPro;
 using UnityEngine;
-using TheOtherRoles_Host.Modules;
-using static TheOtherRoles_Host.Translator;
+using TOHEXI.Modules;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch]
 public static class Credentials
@@ -94,7 +94,7 @@ public static class Credentials
             else if (Main.IsInitialRelease) Main.credentialsText += $"\r\n<color={Main.ModColor}>{Main.ModName}</color> v{Main.PluginDisplayVersion}\r\n<color=#ffc0cb>Town Of Host Edited</color> v2.3.6";
 
 #if RELEASE
-            Main.credentialsText += $"\r\n<size=2.3><color=#ffc0cb>TOHE</color> <color=#8035DF>By <color=#ffc0cb>KARPED1EM</color></size>\r\n<size=2.3><color=#fffcbe>TheOtherRoles_Host</color> <color=#35dfca>By <color=#fffcbe>{Translator.GetString("xiawa")}</color></size>";
+            Main.credentialsText += $"\r\n<size=2.3><color=#ffc0cb>TOHE</color> <color=#8035DF>By <color=#ffc0cb>KARPED1EM</color></size>\r\n<size=2.3><color=#fffcbe>TOHEXI</color> <color=#35dfca>By <color=#fffcbe>{Translator.GetString("xiawa")}</color></size>";
 #endif
 #if CANARY
         Main.credentialsText += $"\r\n<color=#fffe1e>Canary({ThisAssembly.Git.Commit})</color>";
@@ -213,7 +213,7 @@ public static class Credentials
                 //var CustomBG = new GameObject("CustomBG");
                 //CustomBG.transform.position = new Vector3(2.095f, -0.25f, 520f);
                 //var bgRenderer = CustomBG.AddComponent<SpriteRenderer>();
-                //bgRenderer.sprite = Utils.LoadSprite("TheOtherRoles_Host.Resources.Background.TOH-Background-Old.jpg", 245f);
+                //bgRenderer.sprite = Utils.LoadSprite("TOHEXI.Resources.Background.TOH-Background-Old.jpg", 245f);
             }
         }
     }

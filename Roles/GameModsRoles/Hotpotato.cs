@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheOtherRoles_Host.Roles.GameModsRoles;
+namespace TOHEXI.Roles.GameModsRoles;
 
 public static class Holdpotato
 {

@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TheOtherRoles_Host.Modules.Extensions;
+namespace TOHEXI.Modules.Extensions;
 
 public static class IGameManagerEx
 {

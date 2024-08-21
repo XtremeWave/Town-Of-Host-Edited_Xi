@@ -3,11 +3,11 @@ using Hazel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.FixedUpdate))]
 class ShipFixedUpdatePatch

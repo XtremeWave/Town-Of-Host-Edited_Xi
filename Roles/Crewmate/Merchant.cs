@@ -1,11 +1,11 @@
 ﻿using Hazel;
 using LibCpp2IL;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
 public static class Merchant
 {

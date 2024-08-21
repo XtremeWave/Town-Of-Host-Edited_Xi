@@ -1,7 +1,7 @@
 using HarmonyLib;
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class AirShipElectricalDoors
 {

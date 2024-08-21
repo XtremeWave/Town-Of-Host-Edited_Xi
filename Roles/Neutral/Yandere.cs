@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TheOtherRoles_Host.Roles.Neutral;
-using TheOtherRoles_Host;
-using static TheOtherRoles_Host.Options;
+using TOHEXI.Roles.Neutral;
+using TOHEXI;
+using static TOHEXI.Options;
 using MS.Internal.Xml.XPath;
 using UnityEngine;
 using static Il2CppSystem.Net.Http.Headers.Parser;
@@ -15,7 +15,7 @@ using static UnityEngine.GraphicsBuffer;
 using Sentry.Internal;
 using static Rewired.Demos.GamepadTemplateUI.GamepadTemplateUI;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 public static class Yandere
 {
     private static readonly int Id = 156465;

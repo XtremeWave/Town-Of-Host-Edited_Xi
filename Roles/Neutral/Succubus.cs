@@ -1,11 +1,11 @@
 ﻿using Hazel;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Roles.Double;
+using TOHEXI.Roles.Double;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Options;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 
 public static class Succubus
 {

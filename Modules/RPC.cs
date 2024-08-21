@@ -5,17 +5,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Modules.ChatManager;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
-using TheOtherRoles_Host.Roles.AddOns.Impostor;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.ChatCommands;
-using static TheOtherRoles_Host.Translator;
-namespace TheOtherRoles_Host;
+using TOHEXI.Modules;
+using TOHEXI.Modules.ChatManager;
+using TOHEXI.Roles.AddOns.Crewmate;
+using TOHEXI.Roles.AddOns.Impostor;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.ChatCommands;
+using static TOHEXI.Translator;
+namespace TOHEXI;
 
 enum CustomRPC
 {

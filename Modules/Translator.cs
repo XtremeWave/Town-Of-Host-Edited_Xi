@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class Translator
 {
@@ -24,7 +24,7 @@ public static class Translator
     public static void LoadLangs()
     {
         var assembly = System.Reflection.Assembly.GetExecutingAssembly();
-        var stream = assembly.GetManifestResourceStream("TheOtherRoles_Host.Resources.String.csv");
+        var stream = assembly.GetManifestResourceStream("TOHEXI.Resources.String.csv");
         translateMaps = new Dictionary<string, Dictionary<int, string>>();
 
         var options = new CsvOptions()

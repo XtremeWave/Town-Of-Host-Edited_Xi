@@ -8,13 +8,13 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class TemplateManager
 {
-    private static readonly string TEMPLATE_FILE_PATH = "./TheOtherRoles_Host_Data/template.txt";
+    private static readonly string TEMPLATE_FILE_PATH = "./TOHEXI_Data/template.txt";
     private static Dictionary<string, Func<string>> _replaceDictionary = new()
     {
         ["RoomCode"] = () => InnerNet.GameCode.IntToGameName(AmongUsClient.Instance.GameId),
@@ -48,7 +48,7 @@ public static class TemplateManager
         {
             try
             {
-                if (!Directory.Exists(@"TheOtherRoles_Host_Data")) Directory.CreateDirectory(@"TheOtherRoles_Host_Data");
+                if (!Directory.Exists(@"TOHEXI_Data")) Directory.CreateDirectory(@"TOHEXI_Data");
                 if (File.Exists(@"./template.txt")) File.Move(@"./template.txt", TEMPLATE_FILE_PATH);
                 else
                 {
@@ -63,7 +63,7 @@ public static class TemplateManager
                         };
                     else fileName = "English";
                     Logger.Warn($"创建新的 Template 文件：{fileName}", "TemplateManager");
-                    File.WriteAllText(TEMPLATE_FILE_PATH, GetResourcesTxt($"TheOtherRoles_Host.Resources.Config.template.{fileName}.txt"));
+                    File.WriteAllText(TEMPLATE_FILE_PATH, GetResourcesTxt($"TOHEXI.Resources.Config.template.{fileName}.txt"));
                 }
             }
             catch (Exception ex)

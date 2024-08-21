@@ -1,7 +1,7 @@
 ﻿using Hazel;
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class NameNotifyManager
 {

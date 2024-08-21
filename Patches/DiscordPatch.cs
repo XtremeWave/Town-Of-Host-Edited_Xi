@@ -2,7 +2,7 @@ using HarmonyLib;
 using Discord;
 using System;
 
-namespace TheOtherRoles_Host.Patches
+namespace TOHEXI.Patches
 {
     [HarmonyPatch(typeof(ActivityManager), nameof(ActivityManager.UpdateActivity))]
     public class DiscordRPC
@@ -11,7 +11,7 @@ namespace TheOtherRoles_Host.Patches
         private static string region = "";
         public static void Prefix([HarmonyArgument(0)] Activity activity)
         {
-            var details = $"TheOtherRoles_Host v{Main.PluginDisplayVersion}";
+            var details = $"TOHEXI v{Main.PluginDisplayVersion}";
             activity.Details = details;
 
             try
@@ -35,14 +35,14 @@ namespace TheOtherRoles_Host.Patches
 
                         if (lobbycode != "" && region != "")
                         {
-                            details = $"TheOtherRoles_Host - {lobbycode} ({region})";
+                            details = $"TOHEXI - {lobbycode} ({region})";
                         }
 
                         activity.Details = details;
                     }
                     else
                     {
-                        details = $"TheOtherRoles_Host v{Main.PluginDisplayVersion}";
+                        details = $"TOHEXI v{Main.PluginDisplayVersion}";
                     }
                 }
             }
@@ -51,7 +51,7 @@ namespace TheOtherRoles_Host.Patches
             {
                 Logger.Error("Error in updating discord rpc", "DiscordPatch");
                 Logger.Exception(ex, "DiscordPatch");
-                details = $"TheOtherRoles_Host v{Main.PluginDisplayVersion}";
+                details = $"TOHEXI v{Main.PluginDisplayVersion}";
                 activity.Details = details;
             }
         }

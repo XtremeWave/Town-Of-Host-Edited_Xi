@@ -3,11 +3,11 @@ using Hazel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.RandomSpawn;
+using static TOHEXI.RandomSpawn;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 internal static class SoloKombatManager
 {

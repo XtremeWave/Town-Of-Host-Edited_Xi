@@ -1,11 +1,11 @@
 ﻿using MS.Internal.Xml.XPath;
 using System;
 using System.Collections.Generic;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 using Il2CppMono.Security;
 using Lotus.Roles.Internals;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class DoubleKiller
 {

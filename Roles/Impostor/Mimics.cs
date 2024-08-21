@@ -4,11 +4,11 @@ using MS.Internal.Xml.XPath;
 using Steamworks;
 using System;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Options;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Options;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 public static class Mimics
 {
     private static readonly int Id = 574687;

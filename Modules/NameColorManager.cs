@@ -1,10 +1,10 @@
 using Hazel;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class NameColorManager
 {

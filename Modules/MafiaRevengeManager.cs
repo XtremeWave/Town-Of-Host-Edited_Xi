@@ -1,11 +1,11 @@
 ﻿using HarmonyLib;
 using Hazel;
 using System;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class MafiaRevengeManager
 {

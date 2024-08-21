@@ -5,10 +5,10 @@ using System.Linq;
 using UnityEngine;
 using System;
 using System.Collections.Generic;
-using static TheOtherRoles_Host.RandomSpawn;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.RandomSpawn;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 internal static class HotPotatoManager
 {

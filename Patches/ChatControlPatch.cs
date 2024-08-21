@@ -2,7 +2,7 @@ using AmongUs.Data;
 using HarmonyLib;
 using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(ChatController), nameof(ChatController.Update))]
 class ChatControllerUpdatePatch

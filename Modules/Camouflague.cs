@@ -1,8 +1,8 @@
 using HarmonyLib;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Roles.Impostor;
+using TOHEXI.Roles.Impostor;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 static class PlayerOutfitExtension
 {

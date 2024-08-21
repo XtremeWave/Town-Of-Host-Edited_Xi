@@ -1,9 +1,9 @@
 ﻿using MS.Internal.Xml.XPath;
 using System;
 using System.Collections.Generic;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class Loners
 {

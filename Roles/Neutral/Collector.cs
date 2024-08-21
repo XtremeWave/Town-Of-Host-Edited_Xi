@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 
 public static class Collector
 {

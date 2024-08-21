@@ -4,12 +4,12 @@ using MS.Internal.Xml.XPath;
 using Sentry;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.RandomSpawn;
+using static TOHEXI.RandomSpawn;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host.Roles.Double;
+namespace TOHEXI.Roles.Double;
 public class Mini
 {
     private static readonly int Id = 7565376;

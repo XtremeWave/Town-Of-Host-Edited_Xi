@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class HashAuth
 {

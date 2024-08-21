@@ -4,18 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MS.Internal.Xml.XPath;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
-using TheOtherRoles_Host.Roles.AddOns.Impostor;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.AddOns.Crewmate;
+using TOHEXI.Roles.AddOns.Impostor;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using TheOtherRoles_Host.Roles.Double;
+using TOHEXI.Roles.Double;
 using static Il2CppSystem.DateTimeParse;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.GameMode;
+using TOHEXI.Modules;
+using TOHEXI.GameMode;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [Flags]
 public enum CustomGameMode

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class ObjectHelper
 {

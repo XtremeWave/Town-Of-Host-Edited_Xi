@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 
 public static class Vampire
 {

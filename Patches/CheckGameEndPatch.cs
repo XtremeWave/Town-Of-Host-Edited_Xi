@@ -5,12 +5,12 @@ using Hazel;
 using MS.Internal.Xml.XPath;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Translator;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Translator;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.CheckEndCriteria))]
 

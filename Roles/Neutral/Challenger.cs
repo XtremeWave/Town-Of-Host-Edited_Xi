@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using TheOtherRoles_Host.Modules.ChatManager;
+using TOHEXI.Modules.ChatManager;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 using static UnityEngine.GraphicsBuffer;
 using static UnityEngine.ParticleSystem.PlaybackState;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
 public static class Challenger
 {

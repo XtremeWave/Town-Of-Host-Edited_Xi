@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class AURoleOptions
 {

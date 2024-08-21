@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class DevUser
 {

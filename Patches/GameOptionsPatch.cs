@@ -1,8 +1,8 @@
 using AmongUs.GameOptions;
 using HarmonyLib;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(RoleOptionSetting), nameof(RoleOptionSetting.UpdateValuesAndText))]
 class ChanceChangePatch

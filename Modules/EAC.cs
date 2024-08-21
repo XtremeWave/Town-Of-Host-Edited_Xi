@@ -2,9 +2,9 @@
 using Hazel;
 using System;
 using System.Linq;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 internal class EAC
 {

@@ -2,12 +2,12 @@
 using MS.Internal.Xml.XPath;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.RandomSpawn;
+using static TOHEXI.RandomSpawn;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 internal static class ModeArrestManager
 {

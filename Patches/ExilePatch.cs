@@ -1,17 +1,17 @@
 using AmongUs.Data;
 using HarmonyLib;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using AmongUs.GameOptions;
 using System;
 using System.Collections.Generic;
 using static UnityEngine.GraphicsBuffer;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Roles.Double;
+using TOHEXI.Modules;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 class ExileControllerWrapUpPatch
 {

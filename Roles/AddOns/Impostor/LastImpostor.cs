@@ -1,4 +1,4 @@
-namespace TheOtherRoles_Host.Roles.AddOns.Impostor;
+namespace TOHEXI.Roles.AddOns.Impostor;
 
 public static class LastImpostor
 {

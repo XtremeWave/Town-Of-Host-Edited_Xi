@@ -1,10 +1,10 @@
 ﻿using Hazel;
 using System.Collections.Generic;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Options;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 
 public static class Hacker
 {

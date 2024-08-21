@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 class LateTask
 {

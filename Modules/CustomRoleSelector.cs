@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 internal class CustomRoleSelector
 {

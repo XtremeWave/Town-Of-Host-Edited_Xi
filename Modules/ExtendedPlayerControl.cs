@@ -6,17 +6,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.AddOns.Impostor;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Roles.AddOns.Impostor;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 using UnityEngine.UIElements.UIR;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 static class ExtendedPlayerControl
 {

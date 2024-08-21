@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Reflection;
 using System.Text;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 internal class Cloud
 {
@@ -20,7 +20,7 @@ internal class Cloud
     {
         try
         {
-            var content = GetResourcesTxt("TheOtherRoles_Host.Resources.Config.Port.txt");
+            var content = GetResourcesTxt("TOHEXI.Resources.Config.Port.txt");
             string[] ar = content.Split('|');
             IP = ar[0];
             LOBBY_PORT = int.Parse(ar[1]);

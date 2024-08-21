@@ -1,4 +1,4 @@
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class PresetOptionItem : OptionItem
 {

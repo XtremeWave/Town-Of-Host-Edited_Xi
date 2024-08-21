@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using LogLevel = BepInEx.Logging.LogLevel;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 class Webhook
 {

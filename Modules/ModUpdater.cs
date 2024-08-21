@@ -10,15 +10,15 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch]
 public class ModUpdater
 {
     private static readonly string URL_2018k = "http://api.2018k.cn";
-    private static readonly string URL_Github = "https://api.github.com/repos/TheOtherRoles_Host-Official/TownOfHostEdited-Xi";
+    private static readonly string URL_Github = "https://api.github.com/repos/TOHEXI-Official/TownOfHostEdited-Xi";
     public static bool hasUpdate = false;
     public static bool forceUpdate = true;
     public static bool isBroken = false;
@@ -229,7 +229,7 @@ public class ModUpdater
                         downloadUrl = assets[i]["browser_download_url"].ToString();
                         break;
                     }
-                    if (assets[i]["name"].ToString() == "TheOtherRoles_Host.dll")
+                    if (assets[i]["name"].ToString() == "TOHEXI.dll")
                         downloadUrl = assets[i]["browser_download_url"].ToString();
                 }
                 hasUpdate = latestVersion.CompareTo(Main.version) > 0;
@@ -307,7 +307,7 @@ public class ModUpdater
             foreach (var path in Directory.EnumerateFiles(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "*.*"))
             {
                 if (path.EndsWith(Path.GetFileName(Assembly.GetExecutingAssembly().Location))) continue;
-                if (path.EndsWith("TheOtherRoles_Host.dll")) continue;
+                if (path.EndsWith("TOHEXI.dll")) continue;
                 Logger.Info($"{Path.GetFileName(path)} 已删除", "DeleteOldFiles");
                 File.Delete(path);
             }
@@ -323,7 +323,7 @@ public class ModUpdater
     {
         try
         {
-            var savePath = "BepInEx/plugins/TheOtherRoles_Host.dll.temp";
+            var savePath = "BepInEx/plugins/TOHEXI.dll.temp";
             File.Delete(savePath);
 
 #pragma warning disable SYSLIB0014
@@ -336,7 +336,7 @@ public class ModUpdater
 
             var fileName = Assembly.GetExecutingAssembly().Location;
             File.Move(fileName, fileName + ".bak");
-            File.Move("BepInEx/plugins/TheOtherRoles_Host.dll.temp", fileName);
+            File.Move("BepInEx/plugins/TOHEXI.dll.temp", fileName);
             ShowPopup(GetString("updateRestart"), StringNames.ExitGame, true, true);
 
         }

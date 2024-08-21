@@ -3,11 +3,11 @@ using HarmonyLib;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using TheOtherRoles_Host.GameMode;
+using TOHEXI.GameMode;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(IntroCutscene), nameof(IntroCutscene.ShowRole))]
 class SetUpRoleTextPatch

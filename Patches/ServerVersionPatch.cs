@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace TheOtherRoles_Host.Patches;
+namespace TOHEXI.Patches;
 
 [HarmonyPatch(typeof(Constants), nameof(Constants.GetBroadcastVersion))]
 class ServerUpdatePatch

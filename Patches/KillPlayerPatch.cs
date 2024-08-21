@@ -6,27 +6,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 using Hazel;
 using InnerNet;
 using System.Threading.Tasks;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
+using TOHEXI.Modules;
+using TOHEXI.Roles.AddOns.Crewmate;
 using UnityEngine.Profiling;
 using System.Runtime.Intrinsics.X86;
 using static UnityEngine.GraphicsBuffer;
 using UnityEngine.UI;
 using UnityEngine.Networking.Types;
-using TheOtherRoles_Host.Roles.Double;
+using TOHEXI.Roles.Double;
 using Microsoft.Extensions.Logging;
-using TheOtherRoles_Host.Roles.GameModsRoles;
-using TheOtherRoles_Host.GameMode;
+using TOHEXI.Roles.GameModsRoles;
+using TOHEXI.GameMode;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.CheckProtect))]
 class CheckProtectPatch

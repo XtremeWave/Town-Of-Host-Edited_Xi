@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(TaskAdderGame), nameof(TaskAdderGame.ShowFolder))]
 class ShowFolderPatch

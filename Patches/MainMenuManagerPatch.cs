@@ -6,10 +6,10 @@ using System.Linq;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using Object = UnityEngine.Object;
-using static TheOtherRoles_Host.Translator;
-using static TheOtherRoles_Host.Credentials;
+using static TOHEXI.Translator;
+using static TOHEXI.Credentials;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(MainMenuManager))]
 public static class MainMenuManagerPatch
@@ -63,7 +63,7 @@ public static class MainMenuManagerPatch
         GameObject splashArt = new("SplashArt");
         splashArt.transform.position = new Vector3(0, 0f, 600f); //= new Vector3(0, 0.40f, 600f);
         var spriteRenderer = splashArt.AddComponent<SpriteRenderer>();
-        spriteRenderer.sprite = Utils.LoadSprite($"TheOtherRoles_Host.Resources.Images.TheOtherRoles_HostI-BG.jpg", 89f);
+        spriteRenderer.sprite = Utils.LoadSprite($"TOHEXI.Resources.Images.TOHEXII-BG.jpg", 89f);
 
 
         //__instance.playLocalButton.inactiveSprites.GetComponent<SpriteRenderer>().color = new Color(0.1647f, 0f, 0.7765f);

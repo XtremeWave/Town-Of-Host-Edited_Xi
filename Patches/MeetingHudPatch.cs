@@ -7,19 +7,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 using static Il2CppSystem.Linq.Expressions.Interpreter.CastInstruction.CastInstructionNoT;
-using static TheOtherRoles_Host.ChatCommands;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.ChatCommands;
+using static TOHEXI.Translator;
 using static UnityEngine.GraphicsBuffer;
 using static UnityEngine.ParticleSystem.PlaybackState;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(MeetingHud), nameof(MeetingHud.CheckForEndVoting))]
 class CheckForEndVotingPatch

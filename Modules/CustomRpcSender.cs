@@ -3,7 +3,7 @@ using Hazel;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using InnerNet;
 using System;
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class CustomRpcSender
 {

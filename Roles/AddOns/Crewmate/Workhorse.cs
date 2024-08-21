@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.Roles.AddOns.Crewmate;
+namespace TOHEXI.Roles.AddOns.Crewmate;
 
 public static class Workhorse
 {

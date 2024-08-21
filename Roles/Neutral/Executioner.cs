@@ -2,9 +2,9 @@ using HarmonyLib;
 using Hazel;
 using System.Collections.Generic;
 using System.Linq;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 
 public static class Executioner
 {

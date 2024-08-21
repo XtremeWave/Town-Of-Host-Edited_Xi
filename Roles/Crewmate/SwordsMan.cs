@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
 public static class SwordsMan
 {

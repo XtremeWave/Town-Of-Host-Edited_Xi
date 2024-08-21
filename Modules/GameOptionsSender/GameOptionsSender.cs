@@ -4,7 +4,7 @@ using InnerNet;
 using System;
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 public abstract class GameOptionsSender
 {

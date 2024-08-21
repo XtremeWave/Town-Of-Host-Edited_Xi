@@ -1,9 +1,9 @@
 using AmongUs.GameOptions;
 using HarmonyLib;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
+using TOHEXI.Roles.AddOns.Crewmate;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.AddTasksFromList))]
 class AddTasksFromListPatch

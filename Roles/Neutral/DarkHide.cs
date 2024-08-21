@@ -3,7 +3,7 @@ using Hazel;
 using InnerNet;
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 // 来源：https://github.com/Yumenopai/TownOfHost_Y
 public static class DarkHide

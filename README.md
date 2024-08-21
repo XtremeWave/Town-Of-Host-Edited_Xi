@@ -1,2 +1,2 @@
-# TheOtherRoles_Host
+# TOHEXI
 Host Only mod forked from The Other Roles

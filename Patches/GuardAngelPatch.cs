@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 internal class GuardAngelPatch
 {
     [HarmonyPatch(typeof(MeetingIntroAnimation), nameof(MeetingIntroAnimation.Start))]

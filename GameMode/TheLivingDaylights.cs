@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.GameMode;
+namespace TOHEXI.GameMode;
 
 
 public static class TheLivingDaylights

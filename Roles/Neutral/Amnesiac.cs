@@ -4,10 +4,10 @@ using Sentry.Protocol;
 using System.Collections.Generic;
 using UnityEngine;
 using static Logger;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 using System;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 
 public class Amnesiac
 {

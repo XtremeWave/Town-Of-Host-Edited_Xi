@@ -1,10 +1,10 @@
-﻿using static TheOtherRoles_Host.Translator;
+﻿using static TOHEXI.Translator;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Modules;
-using static TheOtherRoles_Host.Options;
+using TOHEXI.Modules;
+using static TOHEXI.Options;
 using System;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 
 public static class Rudepeople

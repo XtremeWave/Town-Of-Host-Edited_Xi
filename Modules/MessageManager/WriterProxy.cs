@@ -2,7 +2,7 @@ using Hazel;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using InnerNet;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class WriterProxy : ICustomWriter
 {

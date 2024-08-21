@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 //参考
 //https://github.com/Koke1024/Town-Of-Moss/blob/main/TownOfMoss/Patches/MeltDownBoost.cs

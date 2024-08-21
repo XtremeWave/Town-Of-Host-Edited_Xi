@@ -1,10 +1,10 @@
 using HarmonyLib;
 using InnerNet;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using UnityEngine;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.MakePublic))]
 internal class MakePublicPatch

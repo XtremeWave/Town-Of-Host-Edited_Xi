@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 public class NormalGameOptionsSender : GameOptionsSender
 {

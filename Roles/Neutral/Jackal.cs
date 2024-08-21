@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using Hazel;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
-using static TheOtherRoles_Host.Translator;
-using TheOtherRoles_Host.Roles.Double;
+using static TOHEXI.Options;
+using static TOHEXI.Translator;
+using TOHEXI.Roles.Double;
 using MonoMod.Cil;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 
 public static class Jackal
 {

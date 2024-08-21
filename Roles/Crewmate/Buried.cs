@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Hazel;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 using Microsoft.Extensions.Logging;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
     public static class Buried
     {

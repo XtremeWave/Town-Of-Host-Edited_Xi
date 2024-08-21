@@ -8,7 +8,7 @@ using HarmonyLib;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using System.Reflection;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 // ##https://github.com/Yumenopai/TownOfHost_Y
 //来源：TOHY（谢谢！）
@@ -73,11 +73,11 @@ public class ModNewsHistorySCn
                 Number = 100010,
                 Title = "TownOfHostEdited-Xi v2.1.0",
                 SubTitle = "★★★★Bug修复★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.1.0★\n<size=75%>简体中文</size>",
+                ShortTitle = "★TOHEXI v2.1.0★\n<size=75%>简体中文</size>",
                 Text =
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
                 + "\n终于解决了!"
                 + "\n\n\n### 对应官方版本"
@@ -98,11 +98,11 @@ public class ModNewsHistorySCn
                 Number = 100009,
                 Title = "TownOfHostEdited-Xi v2.1.0",
                 SubTitle = "★★★★Bugs Fix★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.1.0★\n<size=75%>English</size>",
+                ShortTitle = "★TOHEXI v2.1.0★\n<size=75%>English</size>",
                 Text =
                 "English"
                 + "\n-----------------------------"
-                 + "\n<size=125%>Welcome To TheOtherRoles_Host,Thank ya For Playing!</size>"
+                 + "\n<size=125%>Welcome To TOHEXI,Thank ya For Playing!</size>"
                 + "\n-----------------------------"
                 + "\nOOOOOOOKKKKKAAAAYYYYY!"
                + "\n\n\n### Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.10.24"                + "\n\n### Bugs Fix"
@@ -121,11 +121,11 @@ public class ModNewsHistorySCn
                 Number = 100008,
                 Title = "TownOfHostEdited-Xi v2.0.5",
                 SubTitle = "★★★★Bug修复★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.5★\n<size=75%>简体中文</size>",
+                ShortTitle = "★TOHEXI v2.0.5★\n<size=75%>简体中文</size>",
                 Text =
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
                 + "\n终于解决了!"
                 + "\n\n\n### 对应官方版本"
@@ -146,11 +146,11 @@ public class ModNewsHistorySCn
                 Number = 100007,
                 Title = "TownOfHostEdited-Xi v2.0.5",
                 SubTitle = "★★★★Bugs Fix★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.5★\n<size=75%>English</size>",
+                ShortTitle = "★TOHEXI v2.0.5★\n<size=75%>English</size>",
                 Text =
                 "English"
                 + "\n-----------------------------"
-                 + "\n<size=125%>Welcome To TheOtherRoles_Host,Thank ya For Playing!</size>"
+                 + "\n<size=125%>Welcome To TOHEXI,Thank ya For Playing!</size>"
                 + "\n-----------------------------"
                 + "\nOOOOOOOKKKKKAAAAYYYYY!"
                + "\n\n\n### Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.10.24"                + "\n\n### Bugs Fix"
@@ -168,11 +168,11 @@ public class ModNewsHistorySCn
                 Number = 100006,
                 Title = "TownOfHostEdited-Xi v2.0.4",
                 SubTitle = "★★★★真菌世界！★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.4★\n<size=75%>简体中文</size>",
+                ShortTitle = "★TOHEXI v2.0.4★\n<size=75%>简体中文</size>",
                 Text =
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
                 + "\n喜是歌姬真菌!"
                 + "\n\n\n## 对应官方版本"
@@ -202,11 +202,11 @@ public class ModNewsHistorySCn
                 Number = 100005,
                 Title = "TownOfHostEdited-Xi v2.0.4",
                 SubTitle = "★★★★Fungle World!★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.4★\n<size=75%>English</size>",
+                ShortTitle = "★TOHEXI v2.0.4★\n<size=75%>English</size>",
                 Text =
                 "English"
                 + "\n-----------------------------"
-                 + "\n<size=125%>Welcome To TheOtherRoles_Host,Thank ya For Playing!</size>"
+                 + "\n<size=125%>Welcome To TOHEXI,Thank ya For Playing!</size>"
                 + "\n-----------------------------"
                 + "\nNew Map!"
                + "\n\n\n## Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.10.24"                + "\n\n## Bugs Fix"
@@ -232,11 +232,11 @@ public class ModNewsHistorySCn
                 Number = 100004,
                 Title = "TownOfHostEdited-Xi v2.0.3",
                 SubTitle = "★★★★公开回归！★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.3★\n<size=75%>简体中文</size>",
+                ShortTitle = "★TOHEXI v2.0.3★\n<size=75%>简体中文</size>",
                 Text =
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
                 + "\n再次公开!"
                 + "\n\n\n## 对应官方版本"
@@ -261,11 +261,11 @@ public class ModNewsHistorySCn
                 Number = 100003,
                 Title = "TownOfHostEdited-Xi v2.0.3",
                 SubTitle = "★★★★Public Again!★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.3★\n<size=75%>English</size>",
+                ShortTitle = "★TOHEXI v2.0.3★\n<size=75%>English</size>",
                 Text =
                 "English"
                 + "\n-----------------------------"
-                 + "\n<size=125%>Welcome To TheOtherRoles_Host,Thank ya For Playing!</size>"
+                 + "\n<size=125%>Welcome To TOHEXI,Thank ya For Playing!</size>"
                 + "\n-----------------------------"
                 + "\nLet's Play Public Games!"
                + "\n\n\n## Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.7.11 And Above"                + "\n\n## Bugs Fix"
@@ -282,14 +282,14 @@ public class ModNewsHistorySCn
             {
                 Number = 100002,
                 Title = "TownOfHostEdited-Xi v2.0.2",
-                SubTitle = "★★★★全新的TheOtherRoles_Host！★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.2★\n<size=75%>简体中文</size>",
+                SubTitle = "★★★★全新的TOHEXI！★★★★",
+                ShortTitle = "★TOHEXI v2.0.2★\n<size=75%>简体中文</size>",
                 Text = 
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
-                + "\n全新的TheOtherRoles_Host!"
+                + "\n全新的TOHEXI!"
                 + "\n\n\n## 对应官方版本"
                 + "\n- 基于TOH版本 v4.1.2"
                 + "\n- 基于TOHE版本 v2.3.55"
@@ -314,14 +314,14 @@ public class ModNewsHistorySCn
             {
                 Number = 100001,
                 Title = "TownOfHostEdited-Xi v2.0.0",
-                SubTitle = "★★★★全新的TheOtherRoles_Host！★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.0★\n<size=75%>简体中文</size>",
+                SubTitle = "★★★★全新的TOHEXI！★★★★",
+                ShortTitle = "★TOHEXI v2.0.0★\n<size=75%>简体中文</size>",
                 Text =
                 "简体中文"
                 + "\n-----------------------------"
-                + "\n<size=125%>欢迎来到TheOtherRoles_Host,感谢您的游玩</size>"
+                + "\n<size=125%>欢迎来到TOHEXI,感谢您的游玩</size>"
                 + "\n-----------------------------"
-                + "\n全新的TheOtherRoles_Host!"
+                + "\n全新的TOHEXI!"
                 + "\n\n\n## 对应官方版本"
                 + "\n- 基于TOH版本 v4.1.2"
                 + "\n- 基于TOHE版本 v2.3.55"
@@ -391,13 +391,13 @@ public class ModNewsHistorySCn
                 + "\n- 开场动画背景颜色跟随职业颜色"
                 + "\n- 全新的胜利文本(简体中文)"
                 + "\n\n## 写在最后"
-                + "\n事实上TheOtherRoles_Host已经凉了有一阵子了，"
+                + "\n事实上TOHEXI已经凉了有一阵子了，"
                 + "\n没人来测试，但有人来各种诋毁、甚至辱骂开发者"
                 + "\n咔皮呆说的对，做模组真的很累"
                 + "\n但愿200版本能让玩家回流一些吧"
                 + "\n看到这里，我们要说一声谢谢，是你们给了我们开发的动力，"
                 + "\n祝您游玩愉快！"
-                + "\n                                                       ——TheOtherRoles_Host开发组",
+                + "\n                                                       ——TOHEXI开发组",
                 Date = "2023-8-25T00:00:00Z",
             };
             AllModNews.Add(news);
@@ -407,10 +407,10 @@ public class ModNewsHistorySCn
             {
                 Number = 100000,
                 Title = "TownOfHostEdited-Xi v2.0.0",
-                SubTitle = "★★★★NEW TheOtherRoles_Host!★★★★",
-                ShortTitle = "★TheOtherRoles_Host v2.0.0★\n<size=75%>English</size>",
+                SubTitle = "★★★★NEW TOHEXI!★★★★",
+                ShortTitle = "★TOHEXI v2.0.0★\n<size=75%>English</size>",
                 Text =
-                "English"                + "\n-----------------------------"                + "\n<size=125%>Welcome To TheOtherRoles_Host,Thank ya For Playing!</size>"                + "\n-----------------------------"                + "\nNew TheOtherRoles_Host!"                + "\n\n\n## Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.7.11 And Above"                + "\n\n## Bugs Fix"                + "\n- When Evil Mini Grows Up Reset Kill Cooldown Bug Fix"                + "\n- Sidekick Can't Become Jackal Bug Fix"                + "\n\n We're so sorry about we haven't completed English Translate yet and brings you terrible experience, we have no time"
+                "English"                + "\n-----------------------------"                + "\n<size=125%>Welcome To TOHEXI,Thank ya For Playing!</size>"                + "\n-----------------------------"                + "\nNew TOHEXI!"                + "\n\n\n## Support Among Us Version"                + "\n- Based On TOH v4.1.2"                + "\n- Based On TOHE v2.3.55"                + "\n- Support Among Us v2023.7.11 And Above"                + "\n\n## Bugs Fix"                + "\n- When Evil Mini Grows Up Reset Kill Cooldown Bug Fix"                + "\n- Sidekick Can't Become Jackal Bug Fix"                + "\n\n We're so sorry about we haven't completed English Translate yet and brings you terrible experience, we have no time"
                 + "\n if you wanna help us, please PR your trans in Github, Thanks For your support!",
                 Date = "2023-8-15T00:00:00Z",
             };

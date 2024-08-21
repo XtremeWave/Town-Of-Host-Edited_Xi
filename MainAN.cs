@@ -7,22 +7,22 @@ using MS.Internal.Xml.XPath;
 using Sentry.Internal.Extensions;
 using System.Linq;
 using System.Text;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Translator;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Translator;
 using Hazel;
 using InnerNet;
 using System.Threading.Tasks;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
+using TOHEXI.Modules;
+using TOHEXI.Roles.AddOns.Crewmate;
 using UnityEngine.Profiling;
 using System.Runtime.Intrinsics.X86;
 using static UnityEngine.GraphicsBuffer;
 using UnityEngine.UI;
 using UnityEngine.Networking.Types;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 [HarmonyPatch(typeof(MainMenuManager))]
 //参考TO-HOPE（N让我搬过来））））https://gitee.com/xigua_ya/to-hope
 public class MainAN
@@ -35,9 +35,9 @@ public class MainAN
         var template = __instance.creditsButton;
     
         if (!template) return;
-        // 示例，创建一个名为Gitee的按钮，点击后打开https://gitee.com/xigua_ya/TheOtherRoles_Host
-        CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.2f, 0.1f), "Gitee", () => { Application.OpenURL("https://gitee.com/xigua_ya/TheOtherRoles_Host"); }, new Color32(255, 151, 0,byte.MaxValue));
-        CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.4f, 0.1f), "Github", () => { Application.OpenURL("https://github.com/TheOtherRoles_Host-Official/TownOfHostEdited-Xi"); }, new Color32(0, 0, 0, byte.MaxValue));
+        // 示例，创建一个名为Gitee的按钮，点击后打开https://gitee.com/xigua_ya/TOHEXI
+        CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.2f, 0.1f), "Gitee", () => { Application.OpenURL("https://gitee.com/xigua_ya/TOHEXI"); }, new Color32(255, 151, 0,byte.MaxValue));
+        CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.4f, 0.1f), "Github", () => { Application.OpenURL("https://github.com/TOHEXI-Official/TownOfHostEdited-Xi"); }, new Color32(0, 0, 0, byte.MaxValue));
         CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.6f, 0.1f), "Discord", () => { Application.OpenURL("https://discord.gg/jQbX7aZSKb"); }, new Color32(0, 8, 255, byte.MaxValue));
         CreateButton(__instance, template, GameObject.Find("RightPanel")?.transform, new(0.2f, 0.2f), "QQ", () => { Application.OpenURL("http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=92p_Sv_eLa544FWS83251lPQxpok_i2s&authKey=e918u6eWXT9x2kVo88PPMdEIzg3wZARl0duYhLke9DKhLwujwsmcTKpovM8X01l%2B&noverify=0&group_code=704560281"); }, new Color32(0, 255, 247, byte.MaxValue));
     }

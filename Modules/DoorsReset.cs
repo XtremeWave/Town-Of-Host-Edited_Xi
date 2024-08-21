@@ -1,4 +1,4 @@
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 public static class DoorsReset
 {

@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Neutral;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class AntiBlackout
 {

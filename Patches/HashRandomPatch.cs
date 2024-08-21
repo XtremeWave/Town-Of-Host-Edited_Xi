@@ -1,7 +1,7 @@
 using HarmonyLib;
 using System;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(HashRandom))]
 class HashRandomPatch

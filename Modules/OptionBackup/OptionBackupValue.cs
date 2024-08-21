@@ -2,7 +2,7 @@ using AmongUs.GameOptions;
 using System;
 
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public abstract class OptionBackupValue
 {

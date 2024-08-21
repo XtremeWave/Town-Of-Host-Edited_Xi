@@ -5,13 +5,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class SpamManager
 {
-    private static readonly string BANEDWORDS_FILE_PATH = "./TheOtherRoles_Host_Data/BanWords.txt";
+    private static readonly string BANEDWORDS_FILE_PATH = "./TOHEXI_Data/BanWords.txt";
     public static List<string> BanWords = new();
     public static void Init()
     {
@@ -24,7 +24,7 @@ public static class SpamManager
         {
             try
             {
-                if (!Directory.Exists(@"TheOtherRoles_Host_Data")) Directory.CreateDirectory(@"TheOtherRoles_Host_Data");
+                if (!Directory.Exists(@"TOHEXI_Data")) Directory.CreateDirectory(@"TOHEXI_Data");
                 if (File.Exists(@"./BanWords.txt")) File.Move(@"./BanWords.txt", BANEDWORDS_FILE_PATH);
                 else
                 {
@@ -39,7 +39,7 @@ public static class SpamManager
                         };
                     else fileName = "English";
                     Logger.Warn($"创建新的 BanWords 文件：{fileName}", "SpamManager");
-                    File.WriteAllText(BANEDWORDS_FILE_PATH, GetResourcesTxt($"TheOtherRoles_Host.Resources.Config.BanWords.{fileName}.txt"));
+                    File.WriteAllText(BANEDWORDS_FILE_PATH, GetResourcesTxt($"TOHEXI.Resources.Config.BanWords.{fileName}.txt"));
                 }
             }
             catch (Exception ex)

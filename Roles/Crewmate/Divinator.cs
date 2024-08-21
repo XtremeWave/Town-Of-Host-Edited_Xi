@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using static TheOtherRoles_Host.Options;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Options;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
 public static class Divinator
 {

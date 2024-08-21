@@ -1,6 +1,6 @@
 using System;
 
-namespace TheOtherRoles_Host.Modules;
+namespace TOHEXI.Modules;
 
 class LogHandler : ILogHandler
 {

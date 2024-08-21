@@ -3,9 +3,9 @@ using Hazel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.Roles.Crewmate;
+namespace TOHEXI.Roles.Crewmate;
 
 public static class Psychic
 {

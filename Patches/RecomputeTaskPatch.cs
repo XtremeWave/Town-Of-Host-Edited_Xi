@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(GameData), nameof(GameData.RecomputeTaskCounts))]
 class CustomTaskCountsPatch

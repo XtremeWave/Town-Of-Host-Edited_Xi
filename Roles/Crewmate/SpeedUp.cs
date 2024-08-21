@@ -1,11 +1,11 @@
 ﻿using Il2CppSystem.Threading.Tasks;
 using System;
 using System.Collections.Generic;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Options;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class SpeedUp
 {

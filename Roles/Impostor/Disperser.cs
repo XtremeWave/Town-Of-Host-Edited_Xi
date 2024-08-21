@@ -1,10 +1,10 @@
-﻿using TheOtherRoles_Host.Modules;
+﻿using TOHEXI.Modules;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
-using static TheOtherRoles_Host.Translator;
-using static TheOtherRoles_Host.Utils;
+using static TOHEXI.Options;
+using static TOHEXI.Translator;
+using static TOHEXI.Utils;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 //来源：TOHER https://github.com/Loonie-Toons/TownOfHost-ReEdited 谢谢Lonnie!
 public static class Disperser
 {

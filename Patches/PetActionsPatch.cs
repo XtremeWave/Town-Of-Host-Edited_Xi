@@ -2,13 +2,13 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Translator;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Translator;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 /*
  * HUGE THANKS TO

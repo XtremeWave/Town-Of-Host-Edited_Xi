@@ -2,7 +2,7 @@ using AmongUs.GameOptions;
 using HarmonyLib;
 using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(Console), nameof(Console.CanUse))]
 class CanUsePatch

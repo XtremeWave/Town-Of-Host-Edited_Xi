@@ -1,9 +1,9 @@
 ﻿using Hazel;
 using System.Collections.Generic;
 using UnityEngine;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.Roles.Neutral;
+namespace TOHEXI.Roles.Neutral;
 public static class Vulture
 {
     private static readonly int Id = 132444197;

@@ -1,24 +1,24 @@
 using AmongUs.GameOptions;
 using HarmonyLib;
 using Hazel;
-using TheOtherRoles_Host.Roles.GameModsRoles;
+using TOHEXI.Roles.GameModsRoles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Modules.ChatManager;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
-using TheOtherRoles_Host.Roles.AddOns.Impostor;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
-using static TheOtherRoles_Host.Modules.CustomRoleSelector;
-using static TheOtherRoles_Host.Translator;
+using TOHEXI.Modules;
+using TOHEXI.Modules.ChatManager;
+using TOHEXI.Roles.AddOns.Crewmate;
+using TOHEXI.Roles.AddOns.Impostor;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
+using static TOHEXI.Modules.CustomRoleSelector;
+using static TOHEXI.Translator;
 using MS.Internal.Xml.XPath;
-using TheOtherRoles_Host.GameMode;
+using TOHEXI.GameMode;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(AmongUsClient), nameof(AmongUsClient.CoStartGame))]
 internal class ChangeRoleSettings

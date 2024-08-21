@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using UnityEngine;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(LobbyBehaviour), nameof(LobbyBehaviour.FixedUpdate))]
 public class LobbyFixedUpdatePatch
@@ -18,7 +18,7 @@ public class LobbyFixedUpdatePatch
                 Paint.name = "Lobby Paint";
                 Paint.transform.localPosition = new Vector3(0.042f, -2.59f, -10.5f);
                 SpriteRenderer renderer = Paint.GetComponent<SpriteRenderer>();
-                renderer.sprite = Utils.LoadSprite("TheOtherRoles_Host.Resources.Images.LobbyPaint.png", 290f);
+                renderer.sprite = Utils.LoadSprite("TOHEXI.Resources.Images.LobbyPaint.png", 290f);
             }
         }
     }

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 using Hazel;
-using TheOtherRoles_Host.Modules;
+using TOHEXI.Modules;
 using UnityEngine;
 using AmongUs.GameOptions;
 using InnerNet;
 using HarmonyLib;
 using System.Linq;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class Vandalism
 {

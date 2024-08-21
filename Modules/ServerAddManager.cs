@@ -6,7 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class ServerAddManager
 {

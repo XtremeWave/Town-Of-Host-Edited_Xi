@@ -8,32 +8,32 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 
-[assembly: AssemblyFileVersion(TheOtherRoles_Host.Main.PluginVersion)]
-[assembly: AssemblyInformationalVersion(TheOtherRoles_Host.Main.PluginVersion)]
-[assembly: AssemblyVersion(TheOtherRoles_Host.Main.PluginVersion)]
-namespace TheOtherRoles_Host;
+[assembly: AssemblyFileVersion(TOHEXI.Main.PluginVersion)]
+[assembly: AssemblyInformationalVersion(TOHEXI.Main.PluginVersion)]
+[assembly: AssemblyVersion(TOHEXI.Main.PluginVersion)]
+namespace TOHEXI;
 
-[BepInPlugin(PluginGuid, "TheOtherRoles_Host", PluginVersion)]
+[BepInPlugin(PluginGuid, "TOHEXI", PluginVersion)]
 [BepInIncompatibility("jp.ykundesu.supernewroles")]
 [BepInProcess("Among Us.exe")]
 public class Main : BasePlugin
 {
     // == プログラム設定 / Program Config ==
-    public static readonly string ModName = "TheOtherRoles_Host";
-    public static readonly string ModColor = "#FF0000";
+    public static readonly string ModName = "TOHEXI";
+    public static readonly string ModColor = "#CDFFFD";
     public static readonly bool AllowPublicRoom = true;
-    public static readonly string ForkId = "TheOtherRoles_Host";
+    public static readonly string ForkId = "TOHEXI";
     public static HashAuth DebugKeyAuth { get; private set; }
     public const string DebugKeyHash = "c0fd562955ba56af3ae20d7ec9e64c664f0facecef4b3e366e109306adeae29d";
     public const string DebugKeySalt = "59687b";
     public static ConfigEntry<string> DebugKeyInput { get; private set; }
     public static readonly string MainMenuText = "</color><color=#fffcbe>真菌世界！！</color>";
     public const string PluginGuid = "com.theotherroleshost";
-    public const string PluginVersion = "0.0.1";
-    public const string PluginDisplayVersion = "0.0.1BETA";
+    public const string PluginVersion = "2.1.0";
+    public const string PluginDisplayVersion = "2.1.0";
     public static readonly string SupportedVersionAU = "2023.10.24";
     public const int PluginCreate = 7;
     public Harmony Harmony { get; } = new Harmony(PluginGuid);
@@ -311,7 +311,7 @@ public class Main : BasePlugin
     public static string OverrideWelcomeMsg = "";
     public static int HostClientId;
 
-    public static List<string> TName_Snacks_CN = new() { "CoCo", "喜茶", "奈雪的茶", "蜜雪冰城", "霸王茶姬", "百乐", "斑马", "国誉", "kaco", "晨光", "TheOtherRoles_Host", "TOHE", "TONX", "TOHE-R", "TOH", "TOHE","TOHE+", "喜", "N", "霸道清风", "BT小叨", "歌姬村民", "Bug世界", "八嘎呀路", "你好", "雪糕", "麦当劳", "肯德基", "汉堡", "蛋挞", "果冻", "果茶", "鲜百香双响奏", "派蒙", "胡桃", "银狼","散兵","流浪者","钟离","岩王帝君" };
+    public static List<string> TName_Snacks_CN = new() { "CoCo", "喜茶", "奈雪的茶", "蜜雪冰城", "霸王茶姬", "百乐", "斑马", "国誉", "kaco", "晨光", "TOHEXI", "TOHE", "TONX", "TOHE-R", "TOH", "TOHE","TOHE+", "喜", "N", "霸道清风", "BT小叨", "歌姬村民", "Bug世界", "八嘎呀路", "你好", "雪糕", "麦当劳", "肯德基", "汉堡", "蛋挞", "果冻", "果茶", "鲜百香双响奏", "派蒙", "胡桃", "银狼","散兵","流浪者","钟离","岩王帝君" };
     public static List<string> TName_Snacks_EN = new() { "Ice cream", "Milk tea", "Chocolate", "Cake", "Donut", "Coke", "Lemonade", "Candied haws", "Jelly", "Candy", "Milk", "Matcha", "Burning Grass Jelly", "Pineapple Bun", "Pudding", "Coconut Jelly", "Cookies", "Red Bean Toast", "Three Color Dumplings", "Wormwood Dumplings", "Puffs", "Can be Crepe", "Peach Crisp", "Mochi", "Egg Waffle", "Macaron", "Snow Plum Niang", "Fried Yogurt", "Egg Tart", "Muffin", "Sago Dew", "panna cotta", "soufflé", "croissant", "toffee" };
     public static string Get_TName_Snacks => TranslationController.Instance.currentLanguage.languageID is SupportedLangs.SChinese or SupportedLangs.TChinese ?
         TName_Snacks_CN[IRandom.Instance.Next(0, TName_Snacks_CN.Count)] :
@@ -322,7 +322,7 @@ public class Main : BasePlugin
         Instance = this;
 
         //Client Options
-        HideName = Config.Bind("Client Options", "Hide Game Code Name", "TheOtherRoles_Host");
+        HideName = Config.Bind("Client Options", "Hide Game Code Name", "TOHEXI");
         HideColor = Config.Bind("Client Options", "Hide Game Code Color", $"{ModColor}");
         DebugKeyInput = Config.Bind("Authentication", "Debug Key", "");
         UnlockFPS = Config.Bind("Client Options", "UnlockFPS", false);
@@ -340,33 +340,33 @@ public class Main : BasePlugin
 
 
 
-        Logger = BepInEx.Logging.Logger.CreateLogSource("TheOtherRoles_Host");
-        TheOtherRoles_Host.Logger.Enable();
-        TheOtherRoles_Host.Logger.Disable("NotifyRoles");
-        TheOtherRoles_Host.Logger.Disable("SwitchSystem");
-        TheOtherRoles_Host.Logger.Disable("ModNews");
+        Logger = BepInEx.Logging.Logger.CreateLogSource("TOHEXI");
+        TOHEXI.Logger.Enable();
+        TOHEXI.Logger.Disable("NotifyRoles");
+        TOHEXI.Logger.Disable("SwitchSystem");
+        TOHEXI.Logger.Disable("ModNews");
         if (!DebugModeManager.AmDebugger)
         {
-            TheOtherRoles_Host.Logger.Disable("2018k");
-            //TheOtherRoles_Host.Logger.Disable("Github");
-            TheOtherRoles_Host.Logger.Disable("CustomRpcSender");
-            //TheOtherRoles_Host.Logger.Disable("ReceiveRPC");
-            TheOtherRoles_Host.Logger.Disable("SendRPC");
-            TheOtherRoles_Host.Logger.Disable("SetRole");
-            TheOtherRoles_Host.Logger.Disable("Info.Role");
-            TheOtherRoles_Host.Logger.Disable("TaskState.Init");
-            //TheOtherRoles_Host.Logger.Disable("Vote");
-            TheOtherRoles_Host.Logger.Disable("RpcSetNamePrivate");
-            //TheOtherRoles_Host.Logger.Disable("SendChat");
-            TheOtherRoles_Host.Logger.Disable("SetName");
-            //TheOtherRoles_Host.Logger.Disable("AssignRoles");
-            //TheOtherRoles_Host.Logger.Disable("UpdateSystem");
-            //TheOtherRoles_Host.Logger.Disable("MurderPlayer");
-            //TheOtherRoles_Host.Logger.Disable("CheckMurder");
-            TheOtherRoles_Host.Logger.Disable("PlayerControl.RpcSetRole");
-            TheOtherRoles_Host.Logger.Disable("SyncCustomSettings");
+            TOHEXI.Logger.Disable("2018k");
+            //TOHEXI.Logger.Disable("Github");
+            TOHEXI.Logger.Disable("CustomRpcSender");
+            //TOHEXI.Logger.Disable("ReceiveRPC");
+            TOHEXI.Logger.Disable("SendRPC");
+            TOHEXI.Logger.Disable("SetRole");
+            TOHEXI.Logger.Disable("Info.Role");
+            TOHEXI.Logger.Disable("TaskState.Init");
+            //TOHEXI.Logger.Disable("Vote");
+            TOHEXI.Logger.Disable("RpcSetNamePrivate");
+            //TOHEXI.Logger.Disable("SendChat");
+            TOHEXI.Logger.Disable("SetName");
+            //TOHEXI.Logger.Disable("AssignRoles");
+            //TOHEXI.Logger.Disable("UpdateSystem");
+            //TOHEXI.Logger.Disable("MurderPlayer");
+            //TOHEXI.Logger.Disable("CheckMurder");
+            TOHEXI.Logger.Disable("PlayerControl.RpcSetRole");
+            TOHEXI.Logger.Disable("SyncCustomSettings");
         }
-        //TheOtherRoles_Host.Logger.isDetail = true;
+        //TOHEXI.Logger.isDetail = true;
 
         // 認証関連-初期化
         DebugKeyAuth = new HashAuth(DebugKeyHash, DebugKeySalt);
@@ -622,8 +622,8 @@ public class Main : BasePlugin
         }
         catch (ArgumentException ex)
         {
-            TheOtherRoles_Host.Logger.Error("错误：字典出现重复项", "LoadDictionary");
-            TheOtherRoles_Host.Logger.Exception(ex, "LoadDictionary");
+            TOHEXI.Logger.Error("错误：字典出现重复项", "LoadDictionary");
+            TOHEXI.Logger.Exception(ex, "LoadDictionary");
             hasArgumentException = true;
             ExceptionMessage = ex.Message;
             ExceptionMessageIsShown = false;
@@ -640,9 +640,9 @@ public class Main : BasePlugin
 
         IRandom.SetInstance(new NetRandomWrapper());
 
-        TheOtherRoles_Host.Logger.Info($"{Application.version}", "AmongUs Version");
+        TOHEXI.Logger.Info($"{Application.version}", "AmongUs Version");
 
-        var handler = TheOtherRoles_Host.Logger.Handler("GitVersion");
+        var handler = TOHEXI.Logger.Handler("GitVersion");
         handler.Info($"{nameof(ThisAssembly.Git.BaseTag)}: {ThisAssembly.Git.BaseTag}");
         handler.Info($"{nameof(ThisAssembly.Git.Commit)}: {ThisAssembly.Git.Commit}");
         handler.Info($"{nameof(ThisAssembly.Git.Commits)}: {ThisAssembly.Git.Commits}");
@@ -657,7 +657,7 @@ public class Main : BasePlugin
         if (!DebugModeManager.AmDebugger) ConsoleManager.DetachConsole();
         else ConsoleManager.CreateConsole();
 
-        TheOtherRoles_Host.Logger.Msg("========= TOHE loaded! =========", "Plugin Load");
+        TOHEXI.Logger.Msg("========= TOHE loaded! =========", "Plugin Load");
     }
 
     

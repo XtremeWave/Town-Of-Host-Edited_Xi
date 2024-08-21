@@ -2,11 +2,11 @@
 <h1 align="center">~ TownofHost Edited Xi ~</h1>
 
 ## 语言
-[简体中文](https://github.com/TheOtherRoles_Host-Official/TownOfHostEdited-Xi/blob/TheOtherRoles_HostG/README.md)
+[简体中文](https://github.com/TOHEXI-Official/TownOfHostEdited-Xi/blob/TOHEXIG/README.md)
 
 
 <br>
-<img align="left" alt="Cover" src="Resources/Images/TheOtherRoles_HostI-BG.png" width="50%" height="auto" /> 
+<img align="left" alt="Cover" src="Resources/Images/TOHEXII-BG.png" width="50%" height="auto" /> 
 
 <p align="right">
   
@@ -21,11 +21,11 @@
 Regardin WebSite
   
 <p align="center">
-<a href="https://gitee.com/xigua_ya/TheOtherRoles_Host/" target="_blank"><img src="https://img.shields.io/badge/Gitee%20-%231DA1F2.svg?&style=for-the-badge&logo=gitee&logoColor=white&color=FFA500"/></a>
-<a href="https://github.com/TheOtherRoles_Host-Official/TownOfHostEdited-Xi" target="_blank"><img src="https://img.shields.io/badge/GitHub%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=000000"/></a>
+<a href="https://gitee.com/xigua_ya/TOHEXI/" target="_blank"><img src="https://img.shields.io/badge/Gitee%20-%231DA1F2.svg?&style=for-the-badge&logo=gitee&logoColor=white&color=FFA500"/></a>
+<a href="https://github.com/TOHEXI-Official/TownOfHostEdited-Xi" target="_blank"><img src="https://img.shields.io/badge/GitHub%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=000000"/></a>
 <a href="https://discord.gg/jQbX7aZSKb" target="_blank"><img src="https://img.shields.io/badge/Discord%20-%231DA1F2.svg?&style=for-the-badge&logo=discord&logoColor=white&color=4169E1"/></a>
 <a href="https://pd.qq.com/s/1la0nbwal" target="_blank"><img src="https://img.shields.io/badge/QQ Channel%20-%231DA1F2.svg?&style=for-the-badge&logo=TencentQQ&logoColor=black&color=FFFFFF"/></a>
-<a href="https://TheOtherRoles_Host.cc/" target="_blank"><img src="https://img.shields.io/badge/Website%20-%231DA1F2.svg?&style=for-the-badge&logo=vuedotjs&logoColor=white&color=3aa675"/></a>
+<a href="https://TOHEXI.cc/" target="_blank"><img src="https://img.shields.io/badge/Website%20-%231DA1F2.svg?&style=for-the-badge&logo=vuedotjs&logoColor=white&color=3aa675"/></a>
   
 <br>
   
@@ -34,12 +34,12 @@ support AmongUs v2023.10.24 and above
 
 The Latest Version: v2.0.5
 
-<a href="https://gitee.com/xigua_ya/TheOtherRoles_Host/releases/latest" target="_blank"><img src="https://img.shields.io/badge/Gitee Releases%20-%231DA1F2.svg?&style=for-the-badge&logo=gitee&logoColor=white&color=FFA500"/></a>
+<a href="https://gitee.com/xigua_ya/TOHEXI/releases/latest" target="_blank"><img src="https://img.shields.io/badge/Gitee Releases%20-%231DA1F2.svg?&style=for-the-badge&logo=gitee&logoColor=white&color=FFA500"/></a>
 
-<a href="https://github.com/TheOtherRoles_Host-Official/TownOfHostEdited-Xi/releases/latest" target="_blank"><img src="https://img.shields.io/badge/GitHub Releases%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=000000"/></a>
+<a href="https://github.com/TOHEXI-Official/TownOfHostEdited-Xi/releases/latest" target="_blank"><img src="https://img.shields.io/badge/GitHub Releases%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=000000"/></a>
 
 **TOHE was stopping support at v2.3.6.**<br>
-**But!TheOtherRoles_Host continuing TOHE!**
+**But!TOHEXI continuing TOHE!**
 
 
 ## Source of some Role ideas
@@ -136,7 +136,7 @@ The Latest Version: v2.0.5
 >
 > - Developer: [Niko](https://github.com/NikoCat233)
 > - Reference: Public ideas before v2.0.3
-> - Reference: Improve roles in TheOtherRoles_Host
+> - Reference: Improve roles in TOHEXI
 > - **Technical support**
 >
 # ***Credits***

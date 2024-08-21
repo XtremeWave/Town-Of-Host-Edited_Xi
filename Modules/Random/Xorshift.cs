@@ -1,6 +1,6 @@
 using System;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class Xorshift : IRandom
 {

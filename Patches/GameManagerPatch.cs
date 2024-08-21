@@ -1,7 +1,7 @@
 using HarmonyLib;
 using Hazel;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(GameManager), nameof(GameManager.Serialize))]
 class GameManagerSerializeFix

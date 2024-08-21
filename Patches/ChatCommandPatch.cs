@@ -7,17 +7,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Crewmate;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Crewmate;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.Translator;
 using System.IO;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Modules.ChatManager;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Modules.ChatManager;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 [HarmonyPatch(typeof(ChatController), nameof(ChatController.SendChat))]
 internal class ChatCommands
@@ -25,7 +25,7 @@ internal class ChatCommands
     // Function to check if a player is a moderator
     private static bool IsPlayerModerator(string friendCode)
     {
-        var friendCodesFilePath = @"./TheOtherRoles_Host_Data/Moderators.txt";
+        var friendCodesFilePath = @"./TOHEXI_Data/Moderators.txt";
         var friendCodes = File.ReadAllLines(friendCodesFilePath);
         return friendCodes.Contains(friendCode);
     }

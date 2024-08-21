@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 // 来源：https://github.com/Yumenopai/TownOfHost_Y
 public static class Greedier

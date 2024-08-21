@@ -11,21 +11,21 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.AddOns.Crewmate;
-using TheOtherRoles_Host.Roles.AddOns.Impostor;
-using TheOtherRoles_Host.Roles.Crewmate;
-using TheOtherRoles_Host.Roles.Double;
-using TheOtherRoles_Host.Roles.Impostor;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Roles.AddOns.Crewmate;
+using TOHEXI.Roles.AddOns.Impostor;
+using TOHEXI.Roles.Crewmate;
+using TOHEXI.Roles.Double;
+using TOHEXI.Roles.Impostor;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements.UIR;
-using static TheOtherRoles_Host.ChatCommands;
-using static TheOtherRoles_Host.Translator;
+using static TOHEXI.ChatCommands;
+using static TOHEXI.Translator;
 using static UnityEngine.GraphicsBuffer;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public static class Utils
 {
@@ -1083,10 +1083,10 @@ public static class Utils
             {
                 if (GameStates.IsOnlineGame)
 #if RELEASE
-                    name = $"<color=#fffcbe>TheOtherRoles_Host</color><color=#baf7ca>§</color>" + name;
+                    name = $"<color=#fffcbe>TOHEXI</color><color=#baf7ca>§</color>" + name;
 #endif
 #if CANARY
-                        name = $"<color=#fffcbe>TheOtherRoles_HostCanary</color><color=#baf7ca>♦</color>" + name;
+                        name = $"<color=#fffcbe>TOHEXICanary</color><color=#baf7ca>♦</color>" + name;
 #endif
                 if (Options.CurrentGameMode == CustomGameMode.SoloKombat)
                     name = $"<color=#f55252><size=1.7>{GetString("ModeSoloKombat")}</size></color>\r\n" + name;
@@ -1794,21 +1794,21 @@ public static class Utils
     }
     public static void DumpLog()
     {
-        string f = $"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}/TheOtherRoles_Host-logs/";
+        string f = $"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}/TOHEXI-logs/";
         string t = DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss");
-        string filename = $"{f}TheOtherRoles_Host-v{Main.PluginVersion}-{t}.log";
+        string filename = $"{f}TOHEXI-v{Main.PluginVersion}-{t}.log";
         if (!Directory.Exists(f)) Directory.CreateDirectory(f);
         FileInfo file = new(@$"{Environment.CurrentDirectory}/BepInEx/LogOutput.log");
         file.CopyTo(@filename);
         if (PlayerControl.LocalPlayer != null)
-            HudManager.Instance?.Chat?.AddChat(PlayerControl.LocalPlayer, string.Format(GetString("Message.DumpfileSaved"), $"TheOtherRoles_Host - v{Main.PluginVersion}-{t}.log"));
+            HudManager.Instance?.Chat?.AddChat(PlayerControl.LocalPlayer, string.Format(GetString("Message.DumpfileSaved"), $"TOHEXI - v{Main.PluginVersion}-{t}.log"));
         System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo("Explorer.exe")
         { Arguments = "/e,/select," + @filename.Replace("/", "\\") };
         System.Diagnostics.Process.Start(psi);
     }
     public static void DumpOp()
     {
-        string f = $"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}/TheOtherRoles_Host-Options/";
+        string f = $"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}/TOHEXI-Options/";
         string filename = $"{Main.PluginGuid}.cfg";
         if (!Directory.Exists(f)) Directory.CreateDirectory(f);
         FileInfo file = new(@$"{Environment.CurrentDirectory}/BepInEx/config/{Main.PluginGuid}.cfg");

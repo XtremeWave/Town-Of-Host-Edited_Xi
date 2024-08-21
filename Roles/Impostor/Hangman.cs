@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using static TheOtherRoles_Host.Options;
+using static TOHEXI.Options;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 
 public static class Hangman
 {

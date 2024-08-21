@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TheOtherRoles_Host.Roles.Impostor;
+namespace TOHEXI.Roles.Impostor;
 
 public static class TimeThief
 {

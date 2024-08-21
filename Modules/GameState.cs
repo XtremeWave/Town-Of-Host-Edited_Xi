@@ -3,17 +3,17 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheOtherRoles_Host.Modules;
-using TheOtherRoles_Host.Roles.Neutral;
+using TOHEXI.Modules;
+using TOHEXI.Roles.Neutral;
 using UnityEngine;
 using Hazel;
 using InnerNet;
-using static TheOtherRoles_Host.Translator;
-using TheOtherRoles_Host.Roles.Crewmate;
+using static TOHEXI.Translator;
+using TOHEXI.Roles.Crewmate;
 using static UnityEngine.GraphicsBuffer;
-using TheOtherRoles_Host.Roles.Double;
+using TOHEXI.Roles.Double;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class PlayerState
 {

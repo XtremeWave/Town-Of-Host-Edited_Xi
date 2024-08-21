@@ -22,7 +22,7 @@
 
 using System;
 
-namespace TheOtherRoles_Host;
+namespace TOHEXI;
 
 public class MersenneTwister : IRandom
 {
