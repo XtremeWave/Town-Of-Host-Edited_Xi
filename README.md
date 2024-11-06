@@ -2,11 +2,11 @@
 <h1 align="center">~ TownofHost Edited Xi ~</h1>
 
 ## 语言
-[简体中文](https://github.com/TOHEXI-Official/TownOfHostEdited-Xi/blob/TOHEXIG/README.md)
+[简体中文](https://github.com/XtremeWave/TownOfHostEdited-Xi/blob/TOHEXIG/README.md)
 
 
 <br>
-<img align="left" alt="Cover" src="Resources/Images/TOHEXII-BG.png" width="50%" height="auto" /> 
+<img align="left" alt="Cover" src="Resources/Images/TOHEXI-BG.png" width="50%" height="auto" /> 
 
 <p align="right">
   
